@@ -28,4 +28,16 @@ const unzip = (pathIn, pathOut) => {
           resolve()
         });
     });
+};
+
+/**
+ * Description: read all the png files from given directory and return Promise containing array of each png file path
+ *
+ * @param {string} path
+ * @return {promise}
+ */
+
+const readDir = (dir) => {
+    return fsp.readdir(dir)
+      .then((all_files) =>  all_files.filter(png => path.extname(png)));
   };
