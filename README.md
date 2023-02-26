@@ -15,6 +15,7 @@ Apply a filter to each of the image's pixel data
 
 ## Step 3
 Save it back into a new image. 
+
 ![Image Text](https://github.com/ericak611/Node.js-Grayscale-Project/blob/main/images/grayscaled1.jpg?raw=true)
 
 ![Image Text](https://github.com/ericak611/Node.js-Grayscale-Project/blob/main/images/grayscaled2.jpg?raw=true)
