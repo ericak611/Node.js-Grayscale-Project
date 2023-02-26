@@ -1,0 +1,1 @@
+The 'grayscaled' folder is where the images that have been grayscaled is added to from the 'unzipped' folder.
